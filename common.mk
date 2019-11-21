@@ -86,7 +86,10 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCamera
+
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/prebuilts/etc/permissions/com.google.android.GoogleCamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GoogleCamera.xml
 
 # Common init scripts
 PRODUCT_PACKAGES += \
