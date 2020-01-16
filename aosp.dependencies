@@ -1,10 +1,22 @@
 [
   {
-    "repository": "kernel_oneplus_sdm845",
-    "target_path": "kernel/oneplus/sdm845"
+    "repository"  : "kernel_oneplus_sdm845",
+    "target_path" : "kernel/oneplus/sdm845"
   },
   {
-    "repository": "vendor_oneplus",
-    "target_path": "vendor/oneplus"
+    "repository"  : "vendor_oneplus",
+    "target_path" : "vendor/oneplus"
+  },
+  {
+    "repository"  : "AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf",
+    "target_path" : "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+    "branch"      : "master",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi",
+    "target_path" : "prebuilts/gcc/linux-x86/arm/arm-eabi",
+    "branch"      : "master",
+    "remote"      : "github"
   }
 ]
